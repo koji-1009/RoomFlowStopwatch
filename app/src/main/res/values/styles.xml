@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Base.AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/material_color_primary</item>
+        <item name="colorPrimaryVariant">@color/material_color_primary_variant</item>
+        <item name="colorOnPrimary">@color/material_color_on_primary</item>
+        <item name="colorSecondary">@color/material_color_secondary</item>
+        <item name="colorSecondaryVariant">@color/material_color_secondary_variant</item>
+        <item name="colorOnSecondary">@color/material_color_on_secondary</item>
+
+        <item name="colorPrimaryDark">?attr/colorPrimaryVariant</item>
+
+        <!-- Window decor -->
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarColor">@color/nav_bar_scrim</item>
+    </style>
+
+    <style name="AppTheme" parent="Base.AppTheme">
+        <item name="android:navigationBarColor">@color/transparent</item>
+    </style>
+
+</resources>

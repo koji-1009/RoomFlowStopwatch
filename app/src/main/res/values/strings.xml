@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RoomFlowStopwatch</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
+    <string name="finish">Finish</string>
+</resources>
